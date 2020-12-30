@@ -49,6 +49,10 @@ namespace Tareas
                     ejercicio7 ejer7 = new ejercicio7();
                     ejer7.Conversor();
                     break;
+                case 8:
+                    ejercicio8 ejer8 = new ejercicio8();
+                    ejer8.Array8();
+                    break;
                 default:
 
                     break;
