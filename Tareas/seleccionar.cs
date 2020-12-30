@@ -22,6 +22,10 @@ namespace Tareas
                     ejercicio2 ejer2 = new ejercicio2();
                     ejer2.Aleatorios();
                     break;
+                case 3:
+                    ejercicio3 ejer3 = new ejercicio3();
+                    ejer3.Primos();
+                    break;
                 default:
 
                     break;
