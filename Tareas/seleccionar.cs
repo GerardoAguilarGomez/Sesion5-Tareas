@@ -26,6 +26,13 @@ namespace Tareas
                     ejercicio3 ejer3 = new ejercicio3();
                     ejer3.Primos();
                     break;
+                case 4:
+                    Console.WriteLine("Introduzca el número del que desea calcular el factorial: ");
+                    string numero_factorial = Console.ReadLine();
+                    int Num = Convert.ToInt32(numero_factorial);
+                    ejercicio4 ejer4 = new ejercicio4();
+                    ejer4.Factorial(Num);
+                    break;
                 default:
 
                     break;
