@@ -89,6 +89,10 @@ namespace Tareas
                     ejercicio17 ejer17 = new ejercicio17();
                     ejer17.Array17();
                     break;
+                case 18:
+                    ejercicio18 ejer18= new ejercicio18();
+                    ejer18.Array18();
+                    break;
                 default:
 
                     break;
