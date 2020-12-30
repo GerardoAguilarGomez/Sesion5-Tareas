@@ -45,6 +45,10 @@ namespace Tareas
                     ejercicio6 ejer6 = new ejercicio6();
                     ejer6.Numero_Cifras();
                     break;
+                case 7:
+                    ejercicio7 ejer7 = new ejercicio7();
+                    ejer7.Conversor();
+                    break;
                 default:
 
                     break;
