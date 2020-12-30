@@ -41,6 +41,10 @@ namespace Tareas
                     ejercicio5 ejer5 = new ejercicio5();
                     ejer5.Binario(Num_ejer5);
                     break;
+                case 6:
+                    ejercicio6 ejer6 = new ejercicio6();
+                    ejer6.Numero_Cifras();
+                    break;
                 default:
 
                     break;
