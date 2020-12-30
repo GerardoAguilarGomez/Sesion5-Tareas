@@ -33,6 +33,14 @@ namespace Tareas
                     ejercicio4 ejer4 = new ejercicio4();
                     ejer4.Factorial(Num);
                     break;
+
+                case 5:
+                    Console.WriteLine("Introduzca el número del que desea calcular el binario: ");
+                    string numero_binario = Console.ReadLine();
+                    int Num_ejer5 = Convert.ToInt32(numero_binario);
+                    ejercicio5 ejer5 = new ejercicio5();
+                    ejer5.Binario(Num_ejer5);
+                    break;
                 default:
 
                     break;
