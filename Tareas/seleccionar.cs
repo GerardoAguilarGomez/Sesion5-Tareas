@@ -57,6 +57,10 @@ namespace Tareas
                     ejercicio9 ejer9= new ejercicio9();
                     ejer9.Array9();
                     break;
+                case 10:
+                    ejercicio10 ejer10 = new ejercicio10();
+                    ejer10.TablaMultiplicar();
+                    break;
                 default:
 
                     break;
