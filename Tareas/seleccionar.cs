@@ -18,6 +18,10 @@ namespace Tareas
                     ejercicio1 ejer = new ejercicio1();
                     ejer.ElegirFigura();
                     break;
+                case 2:
+                    ejercicio2 ejer2 = new ejercicio2();
+                    ejer2.Aleatorios();
+                    break;
                 default:
 
                     break;
